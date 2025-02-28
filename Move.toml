@@ -1,0 +1,12 @@
+[package]
+name = 'DportStdlib'
+version = '1.0.0'
+upgrade_policy = "immutable"
+
+[dependencies.MoveStdlib]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/move-stdlib'
+
+[addresses]
+dport_std = "0x626b96faa14f38242ec223e214101791920325665f4f7fc25f8865d6338b0053"
